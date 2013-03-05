@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A76B3716E5DAD300B77B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A76B3616E5DAD300B77B6D /* UIKit.framework */; };
+		84A76B3916E5DAD300B77B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A76B3816E5DAD300B77B6D /* Foundation.framework */; };
+		84A76B3B16E5DAD300B77B6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A76B3A16E5DAD300B77B6D /* CoreGraphics.framework */; };
+		84A76B4116E5DAD300B77B6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B3F16E5DAD300B77B6D /* InfoPlist.strings */; };
+		84A76B4316E5DAD300B77B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B4216E5DAD300B77B6D /* main.m */; };
+		84A76B4716E5DAD300B77B6D /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B4616E5DAD300B77B6D /* SKAppDelegate.m */; };
+		84A76B4A16E5DAD300B77B6D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B4816E5DAD300B77B6D /* MainStoryboard.storyboard */; };
+		84A76B4D16E5DAD300B77B6D /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B4C16E5DAD300B77B6D /* SKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A76B3216E5DAD300B77B6D /* SK1-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SK1-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A76B3616E5DAD300B77B6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A76B3816E5DAD300B77B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84A76B3A16E5DAD300B77B6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84A76B3E16E5DAD300B77B6D /* SK1-3-Info.plist */ = {isa = PBXFileReference; path = "SK1-3-Info.plist"; sourceTree = "<group>"; };
+		84A76B4016E5DAD300B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84A76B4216E5DAD300B77B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A76B4416E5DAD300B77B6D /* SK1-3-Prefix.pch */ = {isa = PBXFileReference; path = "SK1-3-Prefix.pch"; sourceTree = "<group>"; };
+		84A76B4516E5DAD300B77B6D /* SKAppDelegate.h */ = {isa = PBXFileReference; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		84A76B4616E5DAD300B77B6D /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		84A76B4916E5DAD300B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84A76B4B16E5DAD300B77B6D /* SKViewController.h */ = {isa = PBXFileReference; path = SKViewController.h; sourceTree = "<group>"; };
+		84A76B4C16E5DAD300B77B6D /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A76B2F16E5DAD300B77B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A76B3716E5DAD300B77B6D /* UIKit.framework in Frameworks */,
+				84A76B3916E5DAD300B77B6D /* Foundation.framework in Frameworks */,
+				84A76B3B16E5DAD300B77B6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A76B2716E5DAD300B77B6D = {
+			isa = PBXGroup;
+			children = (
+				84A76B3C16E5DAD300B77B6D /* SK1-3 */,
+				84A76B3516E5DAD300B77B6D /* Frameworks */,
+				84A76B3316E5DAD300B77B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A76B3316E5DAD300B77B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A76B3216E5DAD300B77B6D /* SK1-3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A76B3516E5DAD300B77B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A76B3616E5DAD300B77B6D /* UIKit.framework */,
+				84A76B3816E5DAD300B77B6D /* Foundation.framework */,
+				84A76B3A16E5DAD300B77B6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A76B3C16E5DAD300B77B6D /* SK1-3 */ = {
+			isa = PBXGroup;
+			children = (
+				84A76B4516E5DAD300B77B6D /* SKAppDelegate.h */,
+				84A76B4616E5DAD300B77B6D /* SKAppDelegate.m */,
+				84A76B4816E5DAD300B77B6D /* MainStoryboard.storyboard */,
+				84A76B4B16E5DAD300B77B6D /* SKViewController.h */,
+				84A76B4C16E5DAD300B77B6D /* SKViewController.m */,
+				84A76B3D16E5DAD300B77B6D /* Supporting Files */,
+			);
+			path = "SK1-3";
+			sourceTree = "<group>";
+		};
+		84A76B3D16E5DAD300B77B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A76B3E16E5DAD300B77B6D /* SK1-3-Info.plist */,
+				84A76B3F16E5DAD300B77B6D /* InfoPlist.strings */,
+				84A76B4216E5DAD300B77B6D /* main.m */,
+				84A76B4416E5DAD300B77B6D /* SK1-3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A76B3116E5DAD300B77B6D /* SK1-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A76B5016E5DAD300B77B6D /* Build configuration list for PBXNativeTarget "SK1-3" */;
+			buildPhases = (
+				84A76B2E16E5DAD300B77B6D /* Sources */,
+				84A76B2F16E5DAD300B77B6D /* Frameworks */,
+				84A76B3016E5DAD300B77B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SK1-3";
+			productName = "SK1-3";
+			productReference = 84A76B3216E5DAD300B77B6D /* SK1-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A76B2916E5DAD300B77B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84A76B2C16E5DAD300B77B6D /* Build configuration list for PBXProject "SK1-3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A76B2716E5DAD300B77B6D;
+			productRefGroup = 84A76B3316E5DAD300B77B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A76B3116E5DAD300B77B6D /* SK1-3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A76B3016E5DAD300B77B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A76B4116E5DAD300B77B6D /* InfoPlist.strings in Resources */,
+				84A76B4A16E5DAD300B77B6D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A76B2E16E5DAD300B77B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A76B4316E5DAD300B77B6D /* main.m in Sources */,
+				84A76B4716E5DAD300B77B6D /* SKAppDelegate.m in Sources */,
+				84A76B4D16E5DAD300B77B6D /* SKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A76B3F16E5DAD300B77B6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A76B4016E5DAD300B77B6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84A76B4816E5DAD300B77B6D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A76B4916E5DAD300B77B6D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A76B4E16E5DAD300B77B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A76B4F16E5DAD300B77B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A76B5116E5DAD300B77B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK1-3/SK1-3-Prefix.pch";
+				INFOPLIST_FILE = "SK1-3/SK1-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84A76B5216E5DAD300B77B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SK1-3/SK1-3-Prefix.pch";
+				INFOPLIST_FILE = "SK1-3/SK1-3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A76B2C16E5DAD300B77B6D /* Build configuration list for PBXProject "SK1-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A76B4E16E5DAD300B77B6D /* Debug */,
+				84A76B4F16E5DAD300B77B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A76B5016E5DAD300B77B6D /* Build configuration list for PBXNativeTarget "SK1-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A76B5116E5DAD300B77B6D /* Debug */,
+				84A76B5216E5DAD300B77B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A76B2916E5DAD300B77B6D /* Project object */;
+}
