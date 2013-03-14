@@ -15,6 +15,9 @@
 		84A76B4716E5DAD300B77B6D /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B4616E5DAD300B77B6D /* SKAppDelegate.m */; };
 		84A76B4A16E5DAD300B77B6D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B4816E5DAD300B77B6D /* MainStoryboard.storyboard */; };
 		84A76B4D16E5DAD300B77B6D /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B4C16E5DAD300B77B6D /* SKViewController.m */; };
+		84A76B5516E5E69600B77B6D /* SKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B5416E5E69600B77B6D /* SKDevice.m */; };
+		84A76B5816E5EB0D00B77B6D /* SKDeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B5716E5EB0D00B77B6D /* SKDeviceListViewController.m */; };
+		84A76B5B16E69AC100B77B6D /* SKAddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B5A16E69AC100B77B6D /* SKAddDeviceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		84A76B3616E5DAD300B77B6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84A76B3816E5DAD300B77B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A76B3A16E5DAD300B77B6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84A76B3E16E5DAD300B77B6D /* SK1-3-Info.plist */ = {isa = PBXFileReference; path = "SK1-3-Info.plist"; sourceTree = "<group>"; };
+		84A76B3E16E5DAD300B77B6D /* SK1-3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SK1-3-Info.plist"; sourceTree = "<group>"; };
 		84A76B4016E5DAD300B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84A76B4216E5DAD300B77B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84A76B4416E5DAD300B77B6D /* SK1-3-Prefix.pch */ = {isa = PBXFileReference; path = "SK1-3-Prefix.pch"; sourceTree = "<group>"; };
-		84A76B4516E5DAD300B77B6D /* SKAppDelegate.h */ = {isa = PBXFileReference; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		84A76B4416E5DAD300B77B6D /* SK1-3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SK1-3-Prefix.pch"; sourceTree = "<group>"; };
+		84A76B4516E5DAD300B77B6D /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
 		84A76B4616E5DAD300B77B6D /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
 		84A76B4916E5DAD300B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		84A76B4B16E5DAD300B77B6D /* SKViewController.h */ = {isa = PBXFileReference; path = SKViewController.h; sourceTree = "<group>"; };
+		84A76B4B16E5DAD300B77B6D /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
 		84A76B4C16E5DAD300B77B6D /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		84A76B5316E5E69600B77B6D /* SKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDevice.h; sourceTree = "<group>"; };
+		84A76B5416E5E69600B77B6D /* SKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDevice.m; sourceTree = "<group>"; };
+		84A76B5616E5EB0D00B77B6D /* SKDeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDeviceListViewController.h; sourceTree = "<group>"; };
+		84A76B5716E5EB0D00B77B6D /* SKDeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDeviceListViewController.m; sourceTree = "<group>"; };
+		84A76B5916E69AC100B77B6D /* SKAddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAddDeviceViewController.h; sourceTree = "<group>"; };
+		84A76B5A16E69AC100B77B6D /* SKAddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAddDeviceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 				84A76B4B16E5DAD300B77B6D /* SKViewController.h */,
 				84A76B4C16E5DAD300B77B6D /* SKViewController.m */,
 				84A76B3D16E5DAD300B77B6D /* Supporting Files */,
+				84A76B5316E5E69600B77B6D /* SKDevice.h */,
+				84A76B5416E5E69600B77B6D /* SKDevice.m */,
+				84A76B5616E5EB0D00B77B6D /* SKDeviceListViewController.h */,
+				84A76B5716E5EB0D00B77B6D /* SKDeviceListViewController.m */,
+				84A76B5916E69AC100B77B6D /* SKAddDeviceViewController.h */,
+				84A76B5A16E69AC100B77B6D /* SKAddDeviceViewController.m */,
 			);
 			path = "SK1-3";
 			sourceTree = "<group>";
@@ -164,6 +179,9 @@
 				84A76B4316E5DAD300B77B6D /* main.m in Sources */,
 				84A76B4716E5DAD300B77B6D /* SKAppDelegate.m in Sources */,
 				84A76B4D16E5DAD300B77B6D /* SKViewController.m in Sources */,
+				84A76B5516E5E69600B77B6D /* SKDevice.m in Sources */,
+				84A76B5816E5EB0D00B77B6D /* SKDeviceListViewController.m in Sources */,
+				84A76B5B16E69AC100B77B6D /* SKAddDeviceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
